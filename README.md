@@ -69,11 +69,7 @@ It can be used for activities such as:
 
 ## 🏗️ Lab Architecture
 
-![](<img width="1346" height="616" alt="Fig 8  Lab Architecture" src="https://github.com/user-attachments/assets/d9357842-f481-4598-be4e-228feac34671" />
-)
-
-
-Additional target machines can be added to the same virtual network in future projects.
+![](Fig_8._Lab_Architecture.png)
 
 ---
 
@@ -122,7 +118,7 @@ IPv4 Prefix:  10.0.0.0/24
 DHCP:         Enabled
 IPv6:         Disabled
 
-![]()
+![](Fig_1._Virtual_Box_Network_Config.jpeg)
 
 A **NAT Network** was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 
@@ -149,10 +145,12 @@ The VM was allocated:
 ```text
 RAM: 2048 MB
 ```
-![]()
+![](Fig_2._Kali_Linux_Network_Config.jpeg)
+
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
-
+![](Fig_5._Shared_Folder_Setup.jpeg)
+![](Fig_6._Kali_Shared_Folder.jpeg)
 
 ---
 
@@ -171,7 +169,7 @@ DNS: 10.0.0.1
 
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
 
-![]()
+![](Fig_3._Kali_IPv4_Settings.jpeg)
 
 ---
 
@@ -189,7 +187,7 @@ The snapshot represents the clean baseline of the laboratory.
 
 If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
 
-![]()
+![](Fig_7._Kali_Snapshots.jpeg)
 
 ---
 
@@ -233,7 +231,7 @@ sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
 
 The network connection was then restarted/rebooted, and connectivity was tested again.
 
-![]()
+![](Fig_4._Commands_for_Internet_Setup.jpeg)
 
 ---
 
@@ -288,7 +286,6 @@ This laboratory is intended strictly for educational purposes only.
 # 👤 Author
 
 **Aivy Rodrigues**\
-MSc. Cyber Security and Emerging Threats
 B084
 
 LinkedIn: [https://www.linkedin.com/in/aivy-rodrigues](https://www.linkedin.com/in/aivy-rodrigues)
